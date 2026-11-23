@@ -48,11 +48,11 @@ class Faces:
         self.deck = face(SERIF, 20)
         self.body = face(SERIF, 18)
         self.card_body = face(SERIF, 15)
-        self.brief = face(SANS, 14)
-        self.brief_bold = face(SANS_BOLD, 14)
+        self.brief = face(SANS, 16)
+        self.brief_bold = face(SANS_BOLD, 16)
         self.kicker = face(SANS_BOLD, 16)
         self.small = face(SANS_BOLD, 15)
-        self.tag = face(SANS, 15)
+        self.tag = face(SANS, 16)
         self.quote = face(SERIF, 20)
         self.stamp = face(SANS_BOLD, 26)
 
@@ -146,8 +146,8 @@ CARDS = [
 ]
 
 BRIEFS = [
-    ("G20", "The summit opened in Johannesburg, the first ever held on "
-            "African soil."),
+    ("LIBYA", "Sea drones sank the Russian warship Merkury in Benghazi; "
+              "Ukraine claimed the strike."),
     ("MYANMAR", "The army-backed government called an ASEAN decision "
                 "\u201cunfair and imbalanced\u201d."),
     ("LISBON", "Thousands marched as the rising cost of living fuels anger."),
@@ -384,7 +384,7 @@ def draw_briefs(pen, y):
         pen.text((x + 15 + head_w, by), lines[0] if lines else "",
                  font=FACES.brief, fill=SOFT)
         if len(lines) > 1:
-            pen.text((x + 15, by + 14), lines[1], font=FACES.brief,
+            pen.text((x + 15, by + 16), lines[1], font=FACES.brief,
                      fill=SOFT)
     return y + 3 * 28 + 4
 

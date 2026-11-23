@@ -31,7 +31,12 @@ report it: Sunday's events carried into Monday's editions.
   (Edex Live, 23 November 2026)
 
 Briefs:
-- The G20 summit opened in Johannesburg, the first on African soil.
+- Libya: Sea drones sank the Russian warship Merkury while it was
+  docked at the Benghazi naval base on Sunday; President Zelenskyy
+  said on Monday that Ukraine sank it with seven naval drones, and
+  a second Russian cargo ship was also hit. The UN called for an
+  independent probe.
+  (AP / CNA / CNN / Reuters, 22-23 November 2026)
 - Myanmar's army-backed government called an ASEAN decision "unfair
   and imbalanced".
 - Thousands marched in Lisbon as living costs fuel anger.
@@ -39,3 +44,19 @@ Briefs:
 - BepiColombo spacecraft reached the planet Mercury.
 - Nepal's PM Balen Shah began his first visit to India, for talks
   with Prime Minister Modi.
+
+Fix note (23 November 2026, fix round): the G20 brief was removed
+because the Johannesburg G20 summit took place on 22-23 November
+2025, not 2026 (Wikipedia / EU Council / South Africa DIRCO).
+It was replaced with the Libya brief above, verified 22-23
+November 2026 (AP / CNA / CNN / Reuters). All other items were
+re-checked against fresh reporting on 23 November 2026 and kept:
+COP31 collapsed Sunday 22 Nov; Indonesia fire Saturday 21 Nov
+(3 dead, 36 missing as reported Sunday); Peru quake Friday 20 Nov
+(1 dead, 16 injured per INDECI update of 22 Nov); Dymer drone
+strike overnight 22 Nov (14 missing per Zelenskyy); Sparta II hit
+Saturday 21 Nov, still burning Sunday; two Hormuz tankers struck
+Saturday 21 Nov; Myanmar statement Saturday 21 Nov; Lisbon march
+Saturday 21 Nov; Seoul education minister resigned Sunday 22 Nov;
+BepiColombo entered Mercury orbit Saturday 21 Nov; Balen Shah
+arrived in New Delhi Sunday 22 Nov.
