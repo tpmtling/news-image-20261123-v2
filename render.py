@@ -228,12 +228,14 @@ def art_block(pen, box):
             wy = by + 6 + row * 12
             pen.rectangle([wx, wy, wx + 11, wy + 8],
                           fill=GOLD if (row + col) % 2 else PAPER)
-    dx, dy = x1 - 36, y0 + 14
-    pen.ellipse([dx - 11, dy - 4, dx + 11, dy + 4], fill=INK)
-    pen.line([(dx - 16, dy - 10), (dx - 26, dy - 18)], fill=INK, width=2)
-    pen.line([(dx + 16, dy - 10), (dx + 26, dy - 18)], fill=INK, width=2)
+    dx, dy = x1 - 36, y0 + 16
+    pen.rectangle([dx - 9, dy - 4, dx + 9, dy + 4], fill=INK)
+    for sx in (-1, 1):
+        for sy in (-1, 1):
+            rx, ry = dx + sx * 20, dy + sy * 10
+            pen.line([(dx + sx * 9, dy), (rx, ry)], fill=INK, width=2)
+            pen.ellipse([rx - 8, ry - 2, rx + 8, ry + 2], fill=INK)
     pen.line([(dx, dy + 4), (dx, dy + 12)], fill=INK, width=2)
-    pen.line([(dx - 4, dy + 12), (dx + 4, dy + 12)], fill=INK, width=2)
 
 
 def art_ship(pen, box):
